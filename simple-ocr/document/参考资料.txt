@@ -1,0 +1,22 @@
+python 技术篇-使用pytesseract库进行图像识别之环境配置
+https://blog.csdn.net/qq_38161040/article/details/90649497
+
+Tesseract最新版语言包chi_sim.traineddata(4.0.0)GitHub官方获取免csdn积分，各个版本语言包全有
+https://blog.csdn.net/qq_38161040/article/details/90727456
+
+tessdoc
+https://tesseract-ocr.github.io/tessdoc/Data-Files
+
+知乎：如何用python 自己写一个ocr？
+https://www.zhihu.com/question/23622101/answer/1106022205
+
+c++ sdk ocr
+http://www.simpleocr.com/ocr-sdk/
+
+python 技术篇-3行代码搞定图像文字识别，pytesseract库实现
+https://blog.csdn.net/qq_38161040/article/details/90668765
+
+Halcon学习笔记（八）——OCR识别初步 利用文本模板识别与生成训练文件
+https://blog.csdn.net/Thera_qing/article/details/99293122
+
+
