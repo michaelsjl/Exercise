@@ -9,13 +9,17 @@ def get_content_from_image(image_path):
     try:
         image = Image.open(image_path)
         content = pytesseract.image_to_string(image, lang="eng")
-    except Exception,ex:
-        return ""
+    except Exception as ex:
+        return False, str(ex)
     
-    return content
+    return True, content
 
 
 def analysis_content_to_json(content):
-    regex_start = re.compile("[a-zA-Z]")
-    letters = regex_start.findall(content)
-    return {content: letters}
+    try:
+        regex_start = re.compile("[a-zA-Z]")
+        letters = regex_start.findall(content)
+        content = ''.join(letters)
+    except Exception as ex:
+        return False, str(ex)
+    return True, {content: letters}
